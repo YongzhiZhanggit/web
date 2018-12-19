@@ -8,8 +8,9 @@
 <title>显示学生信息</title>
 </head>
 <body>
-显示学生信息
-	<table border="1">
+<h2 align="center"> 学生信息管理</h2>
+<p align="center"><a  href="edit.jsp">添加学生信息</a></p>
+	<table border="1" align="center">
 		<c:forEach  items="${stuList }" var="stu">
 			<tr>
 				<td>${stu.stuid }</td>
